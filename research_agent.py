@@ -13,8 +13,7 @@ n_issues = 3
 
 def main():
     # Get All the tools
-    composio_toolset = ComposioToolSet()
-    tools = composio_toolset.get_actions(actions=[Action.GITHUB_CREATE_AN_ISSUE])
+    tools = ComposioToolSet.get_tools(actions=[Action.GITHUB_CREATE_AN_ISSUE])
     arxiv_tool = ArxivToolSpec()
 
     prefix_messages = [
