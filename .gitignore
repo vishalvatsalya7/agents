@@ -3,3 +3,5 @@
 __pycache__/*
 *.md
 *.ipynb
+/wiki_data/*
+/storage/*

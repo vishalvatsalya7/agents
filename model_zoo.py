@@ -52,6 +52,6 @@ crewai_llm = LLM(
 
 # crewai groq chat
 crewai_llm_groq = LLM(
-    model='groq/llama-3.1-8b-instant',
+    model='groq/llama-3.2-90b-text-preview',
     api_key=os.environ["GROQ_API_KEY"]
 )
